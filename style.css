@@ -1,4 +1,31 @@
-object {
+.container {
+    display: flex;
+    margin: 0;
+
+    height: 100vh;
+}
+
+.left {
+    background-image: url("mealprep.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+
+    width: 40vw;
+}
+
+.logo-container {
+    position: absolute;
+    top: 35%;
+    width: 40vw;
+    padding-top: 10px;
+    background: rgb(255, 255, 255, .9);
+
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
     height: 200px;
     width: 200px;
 }
