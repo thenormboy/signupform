@@ -95,6 +95,7 @@ body {
     flex-direction: column;
     font-size: 12px;
     font-weight: 400;
+    color: rgb(145, 145,  145);
 }
 
 .contact-info div {
@@ -102,6 +103,7 @@ body {
     flex-direction: column;
     font-size: 12px;
     font-weight: 400;
+    color: rgb(145, 145,  145);
 }
 
 .full-name div{
@@ -109,18 +111,23 @@ body {
     flex-direction: column;
     font-size: 12px;
     font-weight: 400;
+    color: rgb(145, 145,  145);
 }
 
 input[type=text], input[type=email], input[type=tel], input[type=password] {
     border: 2px solid rgb(255, 128, 0);
-    border-radius: 2px;
-    padding: 3px;
-    width: 100%;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
 }
 
 .bottom-bar {
     padding-left: 100px;
     height: 32vh;
+}
+
+.bottom-bar h4 {
+    color: rgb(145, 145,  145);
 }
 
 .create-acnt-btn {
@@ -139,4 +146,10 @@ input[type=text], input[type=email], input[type=tel], input[type=password] {
 .create-acnt-btn:hover {
     background-color: rgb(255, 128, 0);
     color: white;
+}
+
+a:link {
+    color: rgb(255, 128, 0);
+    background-color: transparent;
+    text-decoration: none;
 }
