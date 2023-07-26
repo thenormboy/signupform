@@ -93,19 +93,50 @@ body {
 .password-info div{
     display: flex;
     flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .contact-info div {
     display: flex;
     flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .full-name div{
     display: flex;
     flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=password] {
+    border: 2px solid rgb(255, 128, 0);
+    border-radius: 2px;
+    padding: 3px;
+    width: 100%;
 }
 
 .bottom-bar {
     padding-left: 100px;
     height: 32vh;
+}
+
+.create-acnt-btn {
+    background-color: white;
+    color: rgb(255, 128, 0);
+    border: 2px solid rgb(255, 128, 0);
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 13px 50px;
+    margin-top: 50px;
+
+    transition-duration: 0.4s;
+}
+
+.create-acnt-btn:hover {
+    background-color: rgb(255, 128, 0);
+    color: white;
 }
