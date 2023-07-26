@@ -16,9 +16,10 @@
 
 .logo-container {
     position: absolute;
-    top: 35%;
+    top: 40%;
     width: 40vw;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     background: rgb(255, 255, 255, .9);
 
     display: flex;
@@ -28,4 +29,20 @@
 .logo {
     height: 200px;
     width: 200px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.top-bar {
+    height: 35vh;
+    background: whitesmoke;
+}
+
+.form-bar {
+    height: 40vh;
+    background: lightblue;
 }
