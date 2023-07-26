@@ -15,40 +15,47 @@
     </div>
     <div class="right">
         <div class="top-bar">
-            <h2>THIS IS NOT A REAL ONLINE SERVICE! YOU KNOW YOU NEED SOMETHING LIKE THIS IN YOUR LIFE TO HELP YOU REALIZE YOUR DEEPEST DREAMS. SIGN UP NOW TO GET STARTED.</h2>
-            <h2>YOU KNOW YOU WANT TO.</h2>
+            <p class="paragraph">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p> 
+            <p class="paragraph">Sign up <em>now</em> to get started.</h2>
+            <p class="last-text">You <em>know</em> you want to.</h2>
         </div>
         <div class="form-bar">
-            <h2>Lets do this!!</h2>
+            <h2 class="last-text">Lets do this!!</h2>
             <form action="#" method="post">
-                <div>
-                    <label for="first_name">First Name:</label>
-                    <input type="text" id="first_name" name="first_name">
+                <div class="full-name">
+                    <div>
+                        <label for="first_name">First Name:</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+
+                    <div>
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="last_name">Last Name:</label>
-                    <input type="text" id="last_name" name="last_name">
+                <div class="contact-info">
+                    <div>
+                        <label for="user_email">Email:</label>
+                        <input type="email" id="user_email" name="user_email">
+                    </div>
+
+                    <div>
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="user_email">Email:</label>
-                    <input type="email" id="user_email" name="user_email">
-                </div>
+                <div class="password-info">
+                    <div>
+                        <label for="user_password">Password: </label>
+                        <input type="password" id="user_password" name="user_password">
+                    </div>
 
-                <div>
-                    <label for="phone_number">Phone Number:</label>
-                    <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-                </div>
-
-                <div>
-                    <label for="user_password">Password: </label>
-                    <input type="password" id="user_password" name="user_password">
-                </div>
-
-                <div>
-                    <label for="user_pass_confirm">Confirm Password:</label>
-                    <input type="password" id="user_pass_confirm" name="user_pass_confirm">
+                    <div>
+                        <label for="user_pass_confirm">Confirm Password:</label>
+                        <input type="password" id="user_pass_confirm" name="user_pass_confirm">
+                    </div>
                 </div>
             </form>
         </div>
