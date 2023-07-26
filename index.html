@@ -12,6 +12,7 @@
         <div class="logo-container">
             <object class="logo" data="modmeal.svg" type="image/svg+xml"></object>
         </div>
+        <p>PHOTO BY ELLA OLSSON</p>
     </div>
     <div class="right">
         <div class="top-bar">
@@ -25,42 +26,43 @@
                 <div class="full-name">
                     <div>
                         <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name">
+                        <input type="text" id="first_name" name="first_name" required>
                     </div>
 
                     <div>
                         <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
+                        <input type="text" id="last_name" name="last_name" required>
                     </div>
                 </div>
 
                 <div class="contact-info">
                     <div>
                         <label for="user_email">EMAIL</label>
-                        <input type="email" id="user_email" name="user_email">
+                        <input type="email" id="user_email" name="user_email" required>
                     </div>
 
                     <div>
                         <label for="phone_number">PHONE NUMBER</label>
-                        <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-456-7890" required>
                     </div>
                 </div>
 
                 <div class="password-info">
                     <div>
                         <label for="user_password">PASSWORD</label>
-                        <input type="password" id="user_password" name="user_password">
+                        <input type="password" id="user_password" name="user_password" required>
+                        <span class="error" aria-live="polite"></span>
                     </div>
 
                     <div>
                         <label for="user_pass_confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="user_pass_confirm" name="user_pass_confirm">
+                        <input type="password" id="user_pass_confirm" name="user_pass_confirm" required>
                     </div>
                 </div>
             </form>
         </div>
         <div class="bottom-bar">
-            <button class="create-acnt-btn">Create Account</button>
+            <button type="submit" class="create-acnt-btn">Create Account</button>
             <h4>Already have an account? <a class="login" href="url">Log in</a></h4>
         </div>
     </div>
