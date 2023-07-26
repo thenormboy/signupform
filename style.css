@@ -16,11 +16,11 @@
 
 .logo-container {
     position: absolute;
-    top: 40%;
+    top: 33%;
     width: 40vw;
     padding-top: 20px;
     padding-bottom: 15px;
-    background: rgb(255, 255, 255, .9);
+    background: rgb(245, 245, 245, .9);
 
     display: flex;
     justify-content: center;
@@ -38,11 +38,36 @@
 }
 
 .top-bar {
-    height: 35vh;
+    height: 29vh;
     background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 50px;
+    padding-right: 200px;
+    padding-bottom: 50px;
 }
 
 .form-bar {
-    height: 40vh;
+    height: 35vh;
     background: lightblue;
+    padding-left: 50px;
+    padding-right: 30vw;
+}
+
+.form-bar form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.form-bar form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-bar {
+    background: whitesmoke;
+    padding-left: 50px;
+    height: 32vh;
 }
